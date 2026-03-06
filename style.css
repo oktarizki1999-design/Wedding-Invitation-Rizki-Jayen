@@ -682,10 +682,19 @@ body.no-scroll {
 	color: #ffffff;
 	text-transform: uppercase;
 }
+
+.section-title-couple {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
    
 .section-title {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 40px;
 	color: #000;
@@ -2348,6 +2357,7 @@ body.no-scroll {
         font-size: 0.7rem;
     }
 }
+
 
 
 
