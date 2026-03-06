@@ -682,15 +682,32 @@ body.no-scroll {
 	color: #ffffff;
 	text-transform: uppercase;
 }
-
-.section-title-acara{
+   .section-title-couple::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ffffff;  /* Garis bawah judul */
+    margin: 12px auto 0;
+}
+   
+.section-title-acara {
     font-family: var(--font-heading);
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 40px;
-	color: #ffffff;
+	color: #000;
 	text-transform: uppercase;
-}
+}   
+   
+.section-title-acara::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #000;  /* Garis bawah judul */
+    margin: 12px auto 0;
+}   
    
 .section-title {
     font-family: var(--font-heading);
@@ -2357,6 +2374,7 @@ body.no-scroll {
         font-size: 0.7rem;
     }
 }
+
 
 
 
